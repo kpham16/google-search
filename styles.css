@@ -1,0 +1,21 @@
+.logo {
+    width : 300px;
+    height: 1250px;
+    }
+.searchBar {
+    width: 500px;
+}
+.buttons {
+    margin: 15px;
+    width: 150px;
+}
+.rightAlign {
+    float: right;
+}
+.topButtons{
+    border: none;
+    background: none;
+}
+.topButtons:hover{
+    text-decoration: underline; 
+}
