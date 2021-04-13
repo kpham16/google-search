@@ -2,16 +2,23 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel = "stylesheet" href = "styles.css">
     </head>
     <body>
+        <span>
+            <button type = "button" class= "topButtons">About</button>
+            <button type = "button" class= "topButtons">Store</button>
+            <button type = "button" class = "rightAlign topButtons">Gmail</button>
+            <button type = "button" class = "rightAlign topButtons">Images</button>
+        </span>
         <center>
-            <img src = "googleLogo.png" alt="google">
+            <img src = "googleLogo.png" alt="google" class = "logo">
             <form action = "https://google.com/search">
-                <input type = "text" name = "q">
+                <input type = "text" name = "q" class = "searchBar">
             </form>
             <form>
-                <input type = "submit" value = "Google Search">
-                <button type = "button">I'm Feeling Lucky</button>
+                <input type = "submit" value = "Google Search" class = "buttons">
+                <button type = "button" class = "buttons">I'm Feeling Lucky</button>
             </form>
         </center>
     </body>
