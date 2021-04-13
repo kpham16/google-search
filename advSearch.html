@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Advanced Search</Title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <img src = "googleLogo.png" alt = "Google" width = "300" float = "right">
+        <br>
+        <h6 id = "adv">Advanced Search</h6>
+        <p style = "font-size = 10px" class = "advTxt">Find pages with...</p>
+        <form action = "https://google.com/search">
+            <span class = "advTxt">All these words:</span>
+            <input type = "text" name = "as_q">
+        </form>
+        <form action = "https://google.com/search">
+            <span class = "advTxt">This exact word or phrase:</span>
+            <input type = "hidden" name = "as_q" value = "">
+            <input type = "text" name = "as_epq">
+        </form>
+    </body>
+</html>
