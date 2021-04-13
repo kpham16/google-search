@@ -1,5 +1,7 @@
 .searchBar {
     width: 500px;
+    height: 25px;
+    font-size: 20px;
 }
 .buttons {
     margin: 15px;
@@ -15,4 +17,8 @@
 }
 .topButtons:hover{
     text-decoration: underline; 
+}
+#images{
+    position: relative;
+    right: -100px;
 }
