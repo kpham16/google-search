@@ -8,6 +8,7 @@
     width: 150px;
 }
 .rightAlign {
+    position: relative;
     float: right;
 }
 .topButtons{
@@ -21,4 +22,6 @@
 #images{
     position: relative;
     right: -100px;
+    font-family: Trebuchet MS;
+    color: DodgerBlue;
 }
