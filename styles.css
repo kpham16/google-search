@@ -9,8 +9,9 @@
     float: right;
 }
 .topButtons{
-    border: none;
-    background: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
 .topButtons:hover{
     text-decoration: underline; 
