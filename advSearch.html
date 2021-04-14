@@ -5,18 +5,22 @@
         <link rel = "stylesheet" href = "styles.css">
     </head>
     <body>
-        <img src = "googleLogo.png" alt = "Google" width = "300" float = "right">
+        <img src = "googleLogo.png" alt = "Google" width = "100" height = "50" float = "right">
         <br>
-        <h6 id = "adv">Advanced Search</h6>
-        <p style = "font-size = 10px" class = "advTxt">Find pages with...</p>
-        <form action = "https://google.com/search">
-            <span class = "advTxt">All these words:</span>
-            <input type = "text" name = "as_q">
-        </form>
-        <form action = "https://google.com/search">
-            <span class = "advTxt">This exact word or phrase:</span>
-            <input type = "hidden" name = "as_q" value = "">
-            <input type = "text" name = "as_epq">
-        </form>
+        <div id = "adv">Advanced Search</div>
+        <div style = "font-size = 10px" class = "advTxt">Find pages with...</div>
+        <div class = "container">
+            <form action = "https://google.com/search">
+                <label>All these words:</label>
+                <input type = "text" name = "as_q" class = "advBar"><br />
+                <label>This exact word or phrase:</label>
+                <input type = "text" name = "as_epq" class = "advBar"><br />
+                <label>Any of these words:</label>
+                <input type = "text" name = "as_oq" class = "advBar"><br />
+                <label>None of these words:</label>
+                <input type = "text" name = "as_eq" class = "advBar"><br />
+                <button type = "submit" id = "advButton">Advanced Search</button>
+            </form>
+        </div>
     </body>
 </html>
