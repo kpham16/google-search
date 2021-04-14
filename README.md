@@ -1,2 +1,2 @@
-# hello-world
-My first GitHub pages respository
+# project-0-google
+CS50x Project 0 using basic HTML and CSS
