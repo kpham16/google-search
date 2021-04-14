@@ -24,4 +24,32 @@
     right: -100px;
     font-family: Trebuchet MS;
     color: DodgerBlue;
+    font-size: 30px;
+}
+#adv{
+    color: red;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+.advTxt{
+    font-family: Arial;
+}
+label {
+    width: 200px;
+    display: inline-block;
+}
+.container {
+    font-family:Arial;
+    display: inline;
+}
+.container input {
+    width: 400px;
+}
+#advButton {
+    background-color: DodgerBlue;
+    color: white;
+    height : 30px;
+    position: relative;
+    right: -490px;
 }
