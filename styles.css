@@ -20,8 +20,6 @@
     text-decoration: underline; 
 }
 #images{
-    position: relative;
-    right: -100px;
     font-family: Trebuchet MS;
     color: DodgerBlue;
     font-size: 30px;
